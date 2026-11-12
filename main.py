@@ -137,3 +137,4 @@ if __name__ == '__main__':
             if transfer.tenant == tenant.name:
                 print('  ', transfer.amount_pln, transfer.date, transfer.settlement_year, transfer.settlement_month)
     print("--- WYNIKI ROZLICZENIA ---")
+    
