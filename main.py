@@ -101,14 +101,14 @@ class Manager:
         self.bills = Bill.from_json_file(self.parameters.bills_json_path)
 
 class TenantSettlement:
-    def __init__(self, tenant_id, month, year, apart_settle, to_pay, transfers, bal):
+    def __init__(self, tenant_id, month, year, apart_settle, to_pay, transfers, balance):
         self.tenant_id = tenant_id
         self.month = month
         self.year = year
         self.apart_settle = apart_settle
         self.to_pay = to_pay
         self.transfers = transfers
-        self.bal = bal
+        self.balance = balance
 
 if __name__ == '__main__':
     parameters = Parameters()
